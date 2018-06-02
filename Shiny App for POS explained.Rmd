@@ -402,7 +402,8 @@ shinyUI(
 ```
 
 ### Running shiny apps from github directly, stored at https://github.com/amitombase/Shiny-Apps
-
+### Below code is tested on local machines & seems working fine.
+## However, we may face issue when runnin from remote as location for 'english-ud-2.0-170801' needs to be handled in server for that.
 ```{r,eval=FALSE, echo=T}
 
 library(shiny)
